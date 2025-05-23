@@ -1,9 +1,0 @@
-{
-    "vulnerability_type": [
-        "Buffer-Overflow"
-    ],
-    "vulnerable_function": "main",
-    "root_cause": "In the main function, the gets function does not control the amount of input, and when more than 64 bytes are read, it leads to a buffer overflow vulnerability.",
-    "global_variables_ida": "short asc_400755;",
-    "global_variables_manual": "#include <defs.h>"
-}

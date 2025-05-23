@@ -1,9 +1,0 @@
-{
-    "vulnerability_type": [
-        "Buffer-Overflow"
-    ],
-    "vulnerable_function": "vuln",
-    "root_cause": "The vulnerability occurs because, when using fgets, the input length is not checked for potential overflows. This can result in a buffer overflow issue.",
-    "global_variables_ida": "FILE * __bss_start;",
-    "global_variables_manual": "char win1;\nchar win2;"
-}

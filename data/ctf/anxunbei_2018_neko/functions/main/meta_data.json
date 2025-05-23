@@ -1,7 +1,0 @@
-{
-    "vulnerable": false,
-    "address_range": [
-        "0x804856b",
-        "0x80486cd"
-    ]
-}

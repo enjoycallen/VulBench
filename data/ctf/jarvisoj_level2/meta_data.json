@@ -1,9 +1,0 @@
-{
-    "vulnerability_type": [
-        "Buffer-Overflow"
-    ],
-    "vulnerable_function": "vulnerable_function",
-    "root_cause": "In the vulnerable_function, read can read up to 0x100 bytes. When more than 136 bytes are read, this leads to a buffer overflow vulnerability.",
-    "global_variables_ida": "",
-    "global_variables_manual": "#include <defs.h>"
-}

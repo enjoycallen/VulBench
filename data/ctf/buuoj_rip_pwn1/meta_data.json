@@ -1,9 +1,0 @@
-{
-    "vulnerability_type": [
-        "Buffer-Overflow"
-    ],
-    "vulnerable_function": "main",
-    "root_cause": "In the main function, the amount of data that gets can read can be controlled by user input. When gets reads more than 15 bytes, it leads to a buffer overflow vulnerability.",
-    "global_variables_ida": "",
-    "global_variables_manual": "#include <defs.h>"
-}
